@@ -1,0 +1,30 @@
+{
+  "name": "vivi-web-pwa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint-fix": "eslint --fix",
+    "prettier": "prettier . --check",
+    "prettier-fix": "prettier . --write",
+    "prepare": "husky"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vite-pwa/assets-generator": "^0.2.4",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.10",
+    "vite-plugin-pwa": "^0.20.0",
+    "workbox-build": "^7.1.0",
+    "workbox-core": "^7.1.0",
+    "workbox-window": "^7.1.0"
+  },
+  "overrides": {
+    "sharp": "0.32.6",
+    "sharp-ico": "0.1.5"
+  }
+}

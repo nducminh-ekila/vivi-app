@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "vivi-web-pwa"
+		},
+		{
+			"path": "common"
+		}
+	],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "vivi-web-pwa"
+  }
+}
