@@ -16,7 +16,7 @@ const BaseApp = (props) => {
   useEffect(() => {
     const getUserInfo = async () => {
       const user = await sdk.UserService.getUserInfo();
-      setUser(user)
+      setUser(user.userInfo)
     }
     getUserInfo();
   }, [])

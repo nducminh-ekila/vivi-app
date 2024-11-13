@@ -20,8 +20,8 @@ const UserPage = () => {
 
   useEffect(() => {
     if (userLoadable.state === "hasValue") {
-      const { userInfo } = userLoadable.contents;
-      setUser(userInfo);
+      const user = userLoadable.contents;
+      setUser(user);
     }
   }, [userLoadable]);
 

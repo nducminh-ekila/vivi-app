@@ -4,7 +4,7 @@ import { useRecoilValue } from "recoil";
 import { userState } from "../state";
 
 const UserCard: React.FunctionComponent = () => {
-  const { userInfo } = useRecoilValue(userState);
+  const userInfo = useRecoilValue(userState);
 
   return (
     <Box flex>
